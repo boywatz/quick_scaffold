@@ -1,0 +1,33 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, coverage reports, and logs
+*.test
+*.out
+*.log
+
+# Dependency directories (vendor/vendor.json, dep)
+vendor/
+Gopkg.lock
+Gopkg.toml
+
+# Built output and artifacts
+/build/
+bin/
+*.o
+*.a
+
+# IDE directories and settings
+.idea/
+.vscode/
+*.swp
+
+# Local env files
+.env
+.env.*
+!.env.example
+
